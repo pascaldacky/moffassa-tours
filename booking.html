@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Booking - Moffassa Travellers</title>
+  <title>Moffassa Travellers</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/file3.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Tour</h1>
+        <h1 class="sitename">Travellers</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -55,13 +55,13 @@
           <li><a href="tours.html">Tours</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>Our Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="destination-details.html">Destination Details</a></li>
               <li><a href="tour-details.html">Tour Details</a></li>
               <li><a href="booking.html" class="active">Booking</a></li>
 
-              <li><a href="faq.html">Frequently Asked Questions</a></li>
+              <li><a href="faq.html">Transfers & Pickups</a></li>
               <li><a href="blog-details.html">Blog Details</a></li>
               <li><a href="terms.html">Terms</a></li>
               <li><a href="privacy.html">Privacy</a></li>
@@ -85,8 +85,8 @@
                 </ul>
               </li>
               <li><a href="zanzibar.html">Zanzibar Beach</a></li>
-              <li><a href="tour.html">Tour Details</a></li>
-              <li><a href="hotel.html">Hotel & Lodge</a></li>
+              <li><a href="https://www.airbnb.com/l/I2clpud8">Air B&Bs</a></li>
+              <li><a href="hotel.html">Hotels & Lodges</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -94,7 +94,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a href="https://wa.me/255745224845" class="btn btn-success">WhatsApp</a>
+      <a href="https://wa.me/255745224845" class="btn btn-success" target="_blank">WhatsApp</a>
 
     </div>
   </header>
@@ -102,8 +102,27 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/travel/showcase-8.webp);">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/zanzibar8.jpg);">
       <div class="container position-relative">
+          <div class="container text-center">
+      <h2>Continue with English</h2>
+
+      <!-- BOOTSTRAP DROPDOWN -->
+      <div class="dropdown mt-4">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Choose Language
+        </button>
+
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="index.html">🇬🇧English</a></li>
+          <li><a class="dropdown-item" href="french.html">🇫🇷French</a></li>
+          <li><a class="dropdown-item" href="arabic.html">🇸🇦Arabic</a></li>
+          <li><a class="dropdown-item" href="swahil.html">🇪🇸Spanish</a></li>
+        </ul>
+      </div>
+  </div>
+        <img src="assets/img/boni.jpeg" class="border-radius:60px;" alt="">
+        
         <h1>Booking</h1>
         <p>Moffassa Travellers offers the whole Seasons Travelling through the African National Parks Join Us for your best dreamd Journay</p>
         <nav class="breadcrumbs">
@@ -156,10 +175,16 @@
                         <label for="tour-select">Choose Tour Package</label>
                         <select name="tour_package" id="tour-select" class="form-select" required="">
                           <option value="">Select a tour...</option>
-                          <option value="amazing-bali-adventure">Amazing Bali Adventure - 7 Days</option>
-                          <option value="thailand-explorer">Thailand Explorer - 10 Days</option>
-                          <option value="vietnam-highlights">Vietnam Highlights - 8 Days</option>
-                          <option value="cambodia-discovery">Cambodia Discovery - 6 Days</option>
+                          <option value="Mount Kilimanjaro">Mount Kilimanjaro Adventure - 3+ Days</option>
+                          <option value="Serengeti Park">Serengeti Parks - 3+ Days</option>
+                          <option value="Ngorongoro Conservstion">Ngorongoro Conservation Area - 3+ Days</option>
+                          <option value="Selous Reserves">Selous Game/Nyerere Reserves - 3+ Days</option>
+                            <option value="bagamoyo park">Bagamoyo National Park - 3+ Days</option>
+                            <option value="Tarangire Park">Tarangire National Park - 3+ Days</option>
+                            <option value="Arusha">Arusha National Park - 3+ Days</option>
+                            <option value="Mikumi Park">Mikumi National Park - 3+ Days</option>
+                            <option value="Lake Manyara">Lake Manyara National Park - 3+ Days</option>
+                             <option value="Znzibar Beaches">Zanzibar Beaches - 3+ Days</option>
                         </select>
                       </div>
 
@@ -412,7 +437,7 @@
                     </div>
 
                     <div class="form-navigation">
-                      <button type="submit" class="btn btn-book">Complete Booking</button>
+                      <a href="mailto:https://moffassa@travellers.co.tz" class="btn btn-primary">Complete Booking via Email</a>
                     </div>
                   </div><!-- End Step 4 -->
 
@@ -430,9 +455,9 @@
               </div>
 
               <div class="selected-tour">
-                <img src="assets/img/travel/tour-15.webp" alt="Selected Tour" class="img-fluid">
+                <img src="assets/img/boni.jpeg" alt="Selected Tour" class="img-fluid">
                 <div class="tour-info">
-                  <h5>Amazing Bali Adventure</h5>
+                  <h5>Amazing Arusha Tours</h5>
                   <p><i class="bi bi-calendar"></i> 7 Days / 6 Nights</p>
                   <p><i class="bi bi-geo-alt"></i> Arusha, Tanzania</p>
                 </div>
@@ -503,10 +528,10 @@
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <h4>Join Our NewsUpdates</h4>
+            <p>Subscribe to our newsUpdates and receive the latest news about our products and services!</p>
             <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="newsletter-form"><a href="mailto:https://moffassa@travellers.co.tz">Subscribe/Mail Us</a></div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -520,7 +545,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">Tour</span>
+            <span class="sitename">Travellers</span>
           </a>
           <div class="footer-contact pt-3">
             <p>Arusha Streets</p>
@@ -543,20 +568,20 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Tour Planning</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Air B&Bs</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Apartments Booking</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Trip Advisory</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <p>Join Moffassa Social-news and updates via social-links to be the first and get early updated news </p>
           <div class="social-links d-flex">
             <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61581765464726&mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/moffassatravellers?igsh=MWQxazJzaHM2cmhraA==" target="_blank"><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
@@ -565,13 +590,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>2025-2026</span></span> <strong class="px-1 sitename">Moffassa Websites</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Mial Us On: <a href="mailto:https://moffassa@travellers.co.tz">moffassa@travellers.co.tz</a>
       </div>
     </div>
 
