@@ -1,7 +1,0 @@
-services:
-  - type: web
-  name: moffassa-tours
-  runtime: docker
-  repo: .
-  plan: free
-  dockerfilePath: Dockerfile
